@@ -1,0 +1,384 @@
+html, body {
+    width: 100%;
+    height: 100%
+}
+
+.whiteFont {
+    color: white;
+}
+
+.buttonBlueOutline {
+    border-radius: 20px;
+    border: 2px solid rgba(21,52,98,255);
+    color: rgba(21,52,98,255);
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.buttonBlueOutline h6 {
+    text-align: center;
+    align-items: center;
+}
+
+.myContainer {
+    margin: auto;
+    width: 70%;
+}
+
+.heroContainer {
+    position: relative;
+    align-items: center;
+}
+
+.heroContainer img {
+    margin:0px;
+}
+
+
+.heroTextContainer {
+    position: absolute;
+    width:35%;
+    height:30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.heroText h4 {
+    font-size: 25px;
+}
+
+.heroButtons {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.buttonBlue {
+    background-color: rgba(21,52,98,255);
+    border-radius: 30px;
+    padding: 5px 10px 10px 10px;
+    color:white;
+    cursor: pointer;
+}
+
+.sellingPointContainer {
+    background-color: rgba(21,52,98,255);
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.sellingPointCard { 
+    background-color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 120px;
+}
+
+.sellingPoint { 
+   display: flex;
+   margin-top: 5px;
+}
+
+.sellingPoint img {
+    width: 90px;
+    height: 50px;
+}
+
+.sellingPoint p {
+    margin-bottom: 4px;
+}
+
+.link {
+    color: rgba(80,227,194,255);
+}
+
+.videoContainer {
+    margin-top: 50px;
+}
+
+.videoAndList {
+    display: flex;
+}
+
+.videoAndList p, h1, h2, h3, h4, h5, h6 {
+    color:rgba(21,52,98,255)
+}
+
+.sellingPointsList {
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 40%;
+}
+
+.listItems {
+    display: flex;
+}
+
+
+.listItems img{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.videoPlayer iframe{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 450px;
+    height:300px;
+}
+
+.partner {
+    color: rgba(21,52,98,255);
+}
+
+.partnerImageCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.04);
+    border-radius:10px;
+    margin: 10px;
+    width: 150px !important;
+    padding: 0px !important;
+}
+
+.partnerImageCard img {
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+    margin:0px;
+}
+
+.reviews {
+    margin-top:50px;
+}
+
+.reviews h3 {
+    margin-bottom: 20px;
+}
+
+.reviewsUpper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewCardBg {
+    background-color: #f0fffc;
+}
+
+.reviewCard {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.04);
+    border-radius:10px;
+    background-color:white;
+
+}
+
+.reviewText {
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 50%;
+}
+
+.helpTitle {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.helpContainer {
+    width: 110%;
+    color: rgba(21,52,98,255);
+    background-color:#e6eff8;
+}
+
+.help h6, img{
+    margin-top: 18px;
+}
+
+.contactContainer {
+    background-color: rgba(21,52,98,255);
+    padding-bottom: 40px;
+}
+
+.contactUpper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contactUpper h6 {
+    color:white;
+    margin: 0px;
+}
+
+.contacts {
+    display: flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+.contacts{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.whiteLine {
+    border-bottom: 1px solid white;
+}
+
+.greyLine {
+    border-bottom: 1px solid grey;
+}
+
+
+@media (max-width: 600px) {
+    
+    html {
+        width: 100%;
+    }
+
+    body {
+        min-width: 100%;
+
+    }
+
+    .myContainer {
+        width: 100%;
+    }
+
+    .heroTextContainer h4{
+        font-size: 20px;
+    }
+
+    .heroTextContainer {
+        width: 80%;
+    }
+
+    .heroContainer img{
+        height: 300px !important;
+    }
+
+    .sellingPointContainer {
+        margin-top: 60px;
+        background-color: white;
+    }
+
+    .videoAndList {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .sellingPointsList {
+        width: 80%;
+    }
+
+    .videoTitle {
+        text-align: center;
+    }
+
+    .videoContainer {
+        width: 80%;
+        margin: auto;
+        margin-top:60px;
+    }
+
+    .videoPlayer iframe{
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 100%;
+        height:200px;
+    }
+
+    .listItems {
+        margin-top: 20px;
+    }
+
+    .listAnnons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .partnersImagesRow {
+        justify-content:center;
+    }
+
+    .partners {
+        margin-top:50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .partnerImageCard {
+        width: 100px;
+        height: 60px;
+    }
+    .partnerImageCard img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .reviews {
+        margin-top:30px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .reviewsUpper {
+        display: inline-block;
+    }
+
+    .reviewsUpper p {
+       width: 50%;
+    }
+
+    .sellCarButton {
+        display:flex;
+        justify-content:center;
+    }
+
+    .help {
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .helpRow {
+        width: 100%;
+    }
+
+    .helpTitle {
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .contactUpper {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contactTextContainer {
+        width: 90%;
+    }
+
+    .contactUpper img {
+        margin: 0px;
+    }
+
+    .contacts {
+        display: inline-block;
+    }
+}

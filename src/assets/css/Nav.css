@@ -1,0 +1,73 @@
+
+.navContainer {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.logoContainer {
+    margin-left: 55px;
+}
+
+.login {
+    color: rgba(80,227,194,255);
+    border: 1px solid rgba(80,227,194,255);
+    border-radius: 30px;
+    padding: 5px 10px 10px 10px;
+}
+
+.annons {
+    background-color:rgba(80,227,194,255);
+    color:white;
+    border-radius: 30px;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+    width: 140px;
+}
+
+.hamburgerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+
+    .navContainer {
+        position: absolute;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu span {
+        color: white;
+    }
+
+    .linkContainer{
+        margin: 20px;
+    }
+
+    .logoContainer {
+        width: 25%;
+    }
+
+    .logoContainer img {
+        margin: 0px;
+    }
+    
+    .imgContainer {
+        margin-left: 20px;
+    }
+    
+    .loginContainer a {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .blueBg {
+        background-color: rgba(21,52,98,255);
+        padding-bottom: 20px;
+    }
+}
