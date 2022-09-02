@@ -105,7 +105,7 @@ html, body {
     display: flex;
 }
 
-.videoAndList p, h1, h2, h3, h4, h5, h6 {
+.videoAndList h1, h2, h3, h4, h5, h6 {
     color:rgba(21,52,98,255)
 }
 
@@ -190,7 +190,7 @@ html, body {
 }
 
 .helpContainer {
-    width: 110%;
+    width: 100%;
     color: rgba(21,52,98,255);
     background-color:#e6eff8;
 }
@@ -343,6 +343,7 @@ html, body {
         display:flex;
         justify-content:center;
     }
+
 
     .help {
         justify-content: space-between;
